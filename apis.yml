@@ -1,8 +1,15 @@
 aid: 10-happier
 name: 10% Happier
-description: '10% Happier is a company surfaced as a portfolio company of trinity-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: '10% Happier (now branded Happier Meditation) is a consumer meditation
+  and mindfulness app founded on the best-selling book "10% Happier" by ABC News anchor
+  Dan Harris. The service delivers personalized, science-backed guided meditations,
+  courses, and sleep content from well-known teachers through native iOS and Android
+  apps and a web player, aimed at helping skeptics and busy people build a sustainable
+  mindfulness practice for stress, sleep, focus, and relationships. It operates on
+  a subscription model. This profile was surfaced as a portfolio company of Trinity
+  Ventures and enriched by the API Evangelist pipeline; 10% Happier is a direct-to-consumer
+  app and does not publish a public developer API, so this record captures its identity,
+  web properties, and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/10-happier/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,29 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://cdn.prod.website-files.com/6611724b5b44cc23c5935b60/66df9f1dd7463ab1a43043bc_happier_logolockup_charcoal.png
 tags:
 - Company
 - Consumer
+- Meditation
+- Mindfulness
+- Wellness
+- Mobile App
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/10-happier-domain-security.yml
 - type: Website
   url: https://www.tenpercent.com
+- type: Blog
+  url: https://www.tenpercent.com/meditationblog
+- type: Support
+  url: https://support.meditatehappier.com/
+- type: SignUp
+  url: https://app.tenpercent.com/start/register
+- type: TermsOfService
+  url: https://www.tenpercent.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.tenpercent.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
