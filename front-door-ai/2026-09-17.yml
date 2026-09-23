@@ -1,0 +1,25 @@
+# Front Door AI Index — 10-happier — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: 10-happier
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.tenpercent.com
+  final_host: www.meditatehappier.com
+  ownership: inherited
+  owner: 10-happier
+  shares_host_with: null
+  inherited_from: www.meditatehappier.com
+  verdict: scored
+  score: null
+  host_score: 1
+  density: null
+  words: 2218
+  tiers:
+    agentic: 1
+    core: 0
+    model: 0
+  ambiguous: 0
+  top_terms:
+    prompts: 1
